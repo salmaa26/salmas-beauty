@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Testimonials, {
   HCard,
 } from "@/components/atomics/testimonials.card.module";
@@ -50,8 +51,8 @@ export default function Landing() {
               Welcome to Salma Beauty
             </h1>
             <h2 className="text-xl md:text-2xl mb-10">
-              &apos Timeless Beauty, Effortless Glow Salma Beauty, Your
-              Skincare Companion
+              &apos Timeless Beauty, Effortless Glow Salma Beauty, Your Skincare
+              Companion
             </h2>
             <p className="mt-4 text-base md:text-lg text-justify text-white max-w-[800px]">
               Salma Beauty adalah perusahaan di bidang skincare dan makeup yang
@@ -74,10 +75,12 @@ export default function Landing() {
                 "la.jpg",
               ].map((logo, index) => (
                 <div key={index} className="flex justify-center items-center">
-                  <img
+                  <Image
                     src={`/${logo}`}
                     alt={logo}
                     className="w-16 h-16 md:w-32 md:h-32 object-contain mx-auto"
+                    width={128}
+                    height={128}
                   />
                 </div>
               ))}
@@ -132,10 +135,10 @@ export default function Landing() {
             berkualitas tinggi yang telah teruji dan aman, membantu pelanggan
             menemukan solusi perawatan kulit dan tampilan makeup terbaik. Dengan
             koleksi yang lengkap, mulai dari serum, pelembap, hingga foundation
-            dan lipstik, Salma’s Beauty memastikan setiap individu dapat merawat
+            dan lipstik, Salma Beauty memastikan setiap individu dapat merawat
             kecantikan mereka dengan produk asli dan harga terbaik. Kami tidak
             hanya menawarkan produk, tetapi juga pengalaman belanja yang nyaman
-            dengan pelayanan profesional, menjadikan Salma’s Beauty sebagai
+            dengan pelayanan profesional, menjadikan Salma Beauty sebagai
             pilihan utama bagi pecinta kecantikan yang menginginkan kualitas,
             kepercayaan, dan kepuasan dalam setiap pembelian. ✨💖
           </p>
