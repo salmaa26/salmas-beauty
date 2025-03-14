@@ -117,7 +117,7 @@ export default function Landing() {
             pada kualitas dan kepuasan pelanggan, Salma Beauty akan terus
             menghadirkan solusi kecantikan yang **elegan, inovatif, dan
             terpercaya, membantu setiap individu merayakan kecantikan autentik
-            mereka dengan penuh percaya diri.
+            mereka dengan penuh percaya diri
           </p>
         </div>
 
@@ -143,7 +143,7 @@ export default function Landing() {
             hanya menawarkan produk, tetapi juga pengalaman belanja yang nyaman
             dengan pelayanan profesional, menjadikan Salma Beauty sebagai
             pilihan utama bagi pecinta kecantikan yang menginginkan kualitas,
-            kepercayaan, dan kepuasan dalam setiap pembelian. ✨💖
+            kepercayaan, dan kepuasan dalam setiap pembelian
           </p>
         </div>
 

@@ -157,18 +157,18 @@ export default function AboutUs() {
                   </h3>
                   <p className="text-white text-justify items-start">
                     - Integritas: Menjaga kepercayaan pelanggan dengan layanan
-                    yang transparan dan jujur.
+                    yang transparan dan jujur
                   </p>
                   <p className="text-white text-justify items-start">
                     - Inovasi: Terus berinovasi untuk memenuhi kebutuhan gamer
-                    masa kini.
+                    masa kini
                   </p>
                   <p className="text-white text-justify items-start">
-                    - Komunitas: Membangun hubungan erat dengan komunitas gamer.
+                    - Komunitas: Membangun hubungan erat dengan komunitas gamer
                   </p>
                   <p className="text-white text-justify items-start">
                     - Kualitas: Menyediakan produk berkualitas tinggi untuk
-                    meningkatkan pengalaman bermain game.
+                    meningkatkan pengalaman bermain game
                   </p>
                 </div>
               </div>

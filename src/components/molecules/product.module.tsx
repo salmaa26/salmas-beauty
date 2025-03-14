@@ -63,7 +63,7 @@ export default function ProductMenu() {
         backgroundImage: `url('/hhm.jpg')`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-}}
+      }}
     >
       <h2 className="flex justify-center text-3xl text-white items-center font-bold mt-5 mb-10">
         {" "}
@@ -112,7 +112,7 @@ export default function ProductMenu() {
       ) : (
         <div className="w-screen h-screen text-black font-bold text-2xl justify-center items-center mx-auto my-auto">
           <h2 className="col-span-3 justify-center text-center text-white">
-            Loading Content...
+            Loading Content
           </h2>
         </div>
       )}
