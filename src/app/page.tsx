@@ -74,7 +74,10 @@ export default function Landing() {
                 "dioe.jpg",
                 "la.jpg",
               ].map((logo, index) => (
-                <div key={index} className="flex justify-center items-center">
+                <div
+                  key={index}
+                  className="relative flex justify-center items-center"
+                >
                   <Image
                     src={`/${logo}`}
                     alt={logo}

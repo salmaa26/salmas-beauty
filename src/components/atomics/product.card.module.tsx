@@ -16,7 +16,7 @@ export default function ProductCard({
   price,
 }: PCard) {
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col">
+    <div className="relative bg-white shadow-lg rounded-lg overflow-hidden h-full flex flex-col">
       <Image
         src={
           imageurl
